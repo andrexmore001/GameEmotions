@@ -49,7 +49,7 @@ export class RuletaComponent implements OnInit {
   this.emocionSelected=null;
   this.ObsEnded=false;
   this.HTMLElementArray=this.ele.nativeElement.childNodes;
-  let numElement = this.randomIntFromInterval(1, 24)
+  let numElement = this.randomIntFromInterval(1, 18)
   const NodeDesestructure$=of(...this.HTMLElementArray);
   NodeDesestructure$
   .pipe(
